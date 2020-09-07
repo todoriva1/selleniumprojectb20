@@ -14,7 +14,7 @@ public class P2_ZeroBankVerification {
 
         // 2.Go to http://zero.webappsecurity.com/login.html
         driver.get("http://zero.webappsecurity.com/login.html");
-        
+
         // 3.Verify link text from top left:
         // Expected: “Zero Bank”
         // 4.Verify link hrefattribute value contains:
