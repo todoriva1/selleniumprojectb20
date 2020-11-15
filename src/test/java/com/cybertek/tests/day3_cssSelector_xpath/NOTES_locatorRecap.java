@@ -32,10 +32,10 @@ What is built?
 Keys.ENTER --> It is a command that allows selenium to imitate the user pressing ENTER from the keyboard.
 There are 8 LOCATORS in Selenium.
 LOCATORS:
-    1- name             :
+    1- name
         - looks for the "name" attribute's value.
         - returns the value with matching result.
-    2- id:              :
+    2- id:
         - looks for the "id" attribute's value.
         - id attribute's value is always unique to that web element
         - sometimes developers are putting DYNAMIC values to id, therefore it makes it hard to use as a locator.
@@ -47,7 +47,7 @@ LOCATORS:
         <a href=""> text </a>
         driver.findElement(By.linkText("text")) --> this will return me the link above
     4- partialLinkText: exactly same as linkText, but only looks for partial text match.
-    5- className        :
+    5- className
         - same as the name and "id".
         - But it looks for the attribute value of "class"
     6- tagName
@@ -178,13 +178,13 @@ WINDOWS : CONTROL + F
 - TRY AVOID USING IT.
 
 <html>
-<head>
-</head>
-<body>
-<div>
-<h3>this is my header</h3>
-</div>
-</body>
+  <head>
+  </head>
+  <body>
+      <div>
+         <h3>this is my header</h3>
+      </div>
+  </body>
 </html>
 
 /html/body/div/h3
@@ -235,7 +235,8 @@ How to copy xpath from Chrome developer tools?
 - Go to COPY > xpath : This one will give you relative xpath
 - Go to COPY > FULL XPATH : this one will give you absolute xpath
 
- -------------------
+
+-------------------
 TOPICS COVERED TODAY:
 #1 - RECAP
 #2 - isDisplayed
